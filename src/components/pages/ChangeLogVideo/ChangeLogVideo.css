@@ -1,0 +1,504 @@
+
+.changeLogVideo-box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background: #0F0F0F;
+}
+.changeLogVideo-container{
+    position: absolute;
+    width: 960px;
+    height: 470px;
+    left: calc(50% - 960px/2 - 71px);
+    top: calc(50% - 490px/2 - 149.5px);
+}
+.changeLogVideo-container-title-ru{
+    position: absolute;
+    width: max-content;
+    height: 50px;
+    left: 223px;
+    top: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #D9D9D9;
+}
+.changeLogVideo-container-title-eng{
+    position: absolute;
+    width: max-content;
+    height: 50px;
+    left: 276px;
+    top: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #D9D9D9;
+}
+.changeLogVideo-container-line{
+    position: absolute;
+    width: 790px;
+    height: 0px;
+    left: 87px;
+    top: 60px;
+
+    border: 1px solid #B8860B;
+}
+.changeLogVideo-container-content{
+    position: absolute;
+    width: 800px;
+    height: 420px;
+    left: calc(50% - 800px/2 - 2px);
+    top: calc(50% - 420px/2 + 40px);
+
+    overflow-y: scroll;
+}
+.changeLogVideo-container-content::-webkit-scrollbar {
+    width: 6px;
+}
+.changeLogVideo-container-content::-webkit-scrollbar-thumb {
+    background-color:#B0B0B0;
+}
+.changeLogVideo-container-content-title{
+    width: 780px;
+    height: max-content;
+
+    margin-left: 10px;
+    margin-top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #B0B0B0;
+}
+.changeLogVideo-container-content-description{
+    width: 780px;
+    height: max-content;
+
+    margin-left: 10px;
+    margin-top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #B0B0B0;
+}
+.changeLogVideo-container-content-line{
+    width: 780px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #B0B0B0;
+}
+.changeLogVideo-adv{
+    position: absolute;
+    left: calc(50% - 225px/2 + 790px);
+    top: calc(50% - 480px/2 - 140px);
+}
+.changeLogVideo-line{
+    position: absolute;
+    width: 960px;
+    height: 2px;
+    background-color:#B8860B ;
+    left: calc(50% - 225px/2 - 438px);
+    top: calc(50% - 480px/2 + 360px);
+}
+
+@media screen and  (max-width : 1919px) {
+    .changeLogVideo-box{
+        height: 1600px;
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width: max-content;
+        left: calc(50% - 225px/2 + 110px);
+        top:120px;
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 + 600px);
+        top: calc(50% - 480px/2 - 420px);
+    }
+    .changeLogVideo-container{
+        left: calc(50% - 960px/2 - 30px);
+        top:80px;
+    }
+    .changeLogVideo-line{
+        left: calc(50% - 225px/2 - 400px);
+        top: calc(50% - 480px/2 + 60px);
+    }
+}
+@media screen and  (max-width : 1599px) {
+    .changeLogVideo-box{
+        height: 1600px;  
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width: max-content;
+        left: calc(50% - 225px/2 + 110px);
+        top:120px; 
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 - 20px);
+        top: calc(50% - 480px/2 + 350px);
+    }
+    .changeLogVideo-container{
+        left: calc(50% - 960px/2 - 30px);
+        top:80px;
+    }
+}
+@media screen and  (max-width : 1281px) {
+    .changeLogVideo-box{
+        height: 1700px;  
+    }
+    .changeLogVideo-line{
+        width: 690px;
+        left: calc(50% - 225px/2 - 230px);
+        top: calc(50% - 480px/2 + 270px);
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width:100%;
+        left: 10px;
+        top:370px;
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 - 0px);
+        top: calc(50% - 480px/2 + 520px);
+    }
+    .changeLogVideo-container-title-ru{
+        left: 220px;
+    }
+    .changeLogVideo-container-title-eng{
+        left: 290px;
+    }
+    .changeLogVideo-container-line{
+        width: 650px;
+        left: 185px;
+        top: 60px;
+    }
+    .changeLogVideo-container-content{
+        width: 690px;
+        height: 700px;
+        left: calc(50% - 800px/2 + 80px);
+        top:60px;
+    }
+    .changeLogVideo-container-content-title{
+        width: 670px;
+    }
+    .changeLogVideo-container-content-description{
+        width: 670px;
+    }
+    .changeLogVideo-container-content-line{
+        width: 98%;
+    }
+}
+
+@media screen and  (max-width : 1025px) {
+    .changeLogVideo-box{
+        height: 1900px;  
+    }
+    .changeLogVideo-line{
+        left: calc(50% - 225px/2 - 240px);
+        top: calc(50% - 480px/2 + 190px);
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width:100%;
+        left: 30px;
+        top:40px;
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 + 0px);
+        top: calc(50% - 480px/2 + 520px);
+    }
+    .changeLogVideo-container{
+        width: 850px;
+        left: calc(50% - 960px/2 + 10px);
+        top:80px;
+    }
+    .changeLogVideo-container-title-ru{
+        left: 200px;
+    }
+    .changeLogVideo-container-title-eng{
+        left: 240px;
+    }
+    .changeLogVideo-container-line{
+        width: 600px;
+        left: 150px;
+        top: 50px;
+    }
+}
+@media screen and  (max-width : 769px) {
+    .changeLogVideo-line{
+        width: 500px;
+        left: calc(50% - 225px/2 - 140px);
+        top: calc(50% - 480px/2 + 230px);
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:80px;
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 520px);
+    }
+    .changeLogVideo-container{
+        width: 660px;
+        height: 470px;
+        left: calc(50% - 960px/2 + 120px);
+        top:80px;
+    }
+    .changeLogVideo-container-title-ru{
+        height: 50px;
+        left: 94px;
+    }
+    .changeLogVideo-container-title-eng{
+        height: 50px;
+        left: 150px;
+    }
+    .changeLogVideo-container-line{
+        position: absolute;
+        width: 530px;
+        height: 0px;
+        left: 90px;
+        top: 50px;
+    }
+    .changeLogVideo-container-content{
+        width: 560px;
+        height: 750px;
+        left: calc(50% - 800px/2 + 150px);
+        top:60px;
+    }
+    .changeLogVideo-container-content-title{
+        width: 500px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogVideo-container-content-description{
+        width: 530px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogVideo-container-content-line{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and  (max-width : 601px) {
+    .changeLogVideo-line{
+        width: 400px;
+        left: calc(50% - 225px/2 - 90px);
+        top: calc(50% - 480px/2 + 210px);
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:280px;
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 500px);
+    }
+    .changeLogVideo-container{
+        position: absolute;
+        width: 580px;
+        height: 480px;
+        left: calc(50% - 960px/2 + 120px);
+        top:80px;
+    }
+    .changeLogVideo-container-title-ru{
+        height: 50px;
+        left: 160px;
+        font-size: 20px;
+    }
+    .changeLogVideo-container-title-eng{
+        height: 50px;
+        left: 190px;
+        font-size: 20px;
+    }
+    .changeLogVideo-container-line{
+        width: 480px;
+        height: 0px;
+        left: 120px;
+        top: 50px;
+    }
+    .changeLogVideo-container-content{
+        width: 450px;
+        height: 750px;
+        left: calc(50% - 800px/2 + 250px);
+        top:60px;
+    }
+    .changeLogVideo-container-content-title{
+        width: 410px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .changeLogVideo-container-content-description{
+        width: 420px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogVideo-container-content-line{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and  (max-width : 479px) {
+    .changeLogVideo-line{
+        width: 300px;
+        left: calc(50% - 225px/2 - 40px);
+        top: calc(50% - 480px/2 + 280px);
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:380px;
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 540px);
+    }
+    .changeLogVideo-container{
+        width: 200px;
+        height: 480px;
+        left: calc(50% - 960px/2 + 380px);
+        top:80px;
+    }
+    .changeLogVideo-container-title-ru{
+        height: 50px;
+        left:-60px;
+        font-size: 16px;
+    }
+    .changeLogVideo-container-title-eng{
+        height: 50px;
+        left:-20px;
+        font-size: 16px;
+    }
+    .changeLogVideo-container-line{
+        width: 98%;
+        height: 0px;
+        left:1%;
+        top: 50px;
+    }
+    .changeLogVideo-container-content{
+        width: 300px;
+        height: 800px;
+        left: calc(50% - 800px/2 + 250px);
+        top:60px;
+    }
+    .changeLogVideo-container-content-title{
+        width: 280px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    
+    .changeLogVideo-container-content-description{
+        width: 270px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogVideo-container-content-line{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and  (max-width : 319px) {
+    .changeLogVideo-line{
+        width: 230px;
+        left: calc(50% - 225px/2 - 5px);
+        top: calc(50% - 480px/2 + 260px);
+    }
+    .changeLogVideo-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:450px;
+    }
+    .changeLogVideo-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 500px);
+    }
+    .changeLogVideo-container{
+        width: 200px;
+        height: 480px;
+        left: calc(50% - 960px/2 + 380px);
+        top:80px;
+    }
+    .changeLogVideo-container-title-ru{
+        height: 50px;
+        left:-40px;
+        font-size: 14px;
+        top:-10px;
+    }
+    .changeLogVideo-container-title-eng{
+        height: 50px;
+        left:-10px;
+        font-size: 14px;
+        top:-10px;
+    }
+    .changeLogVideo-container-line{
+        width: 98%;
+        height: 0px;
+        left:1%;
+        top: 50px;
+    }
+    .changeLogVideo-container-content{
+        width: 230px;
+        height: 800px;
+        left: calc(50% - 800px/2 + 280px);
+        top:60px;
+    }
+    .changeLogVideo-container-content-title{
+        width: 210px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+    } 
+    .changeLogVideo-container-content-description{
+        width: 210px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogVideo-container-content-line{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}

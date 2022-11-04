@@ -1,0 +1,202 @@
+html,body{
+    height: 100%;
+}
+
+    .wrapper-header{
+        position: absolute;
+        height: 55px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        background: #272727;
+    }
+
+    .header-title{
+        position: absolute;
+        width: 260px;
+        height: 57px;
+        left: calc(50% - 260px/2 - 785px);
+        top: calc(50% - 57px/2 - 2.5px);
+
+        font-family: 'Faster One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 58px;
+
+        color: #B8860B;
+        transition: color .2s;
+    }
+    .header-title:hover{
+        color: #b99538;
+    }
+
+    .header-ru{
+        position: absolute;
+        width: 40px;
+        height: 27px;
+        left: calc(50% - 40px/2 + 782px);
+        top: calc(50% - 27px/2 - 0.5px);
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+
+        cursor: pointer;
+    }
+
+    .header-eng{
+        position: absolute;
+        width: 47px;
+        height: 28px;
+        left: calc(50% - 47px/2 + 825.5px);
+        top: calc(50% - 28px/2);
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+
+        cursor: pointer;
+    }
+
+
+@media screen and  (max-width : 1919px) {
+    .header-title{
+        left: calc(50% - 260px/2 - 480px);
+        top: calc(50% - 57px/2 - 2.5px);
+    }
+    .header-ru{
+        left: calc(50% - 40px/2 + 610px);
+        top: calc(50% - 27px/2 - 0.5px);
+    }
+    .header-eng{
+        left: calc(50% - 47px/2 + 650px);
+        top: calc(50% - 28px/2);
+    }
+}
+@media screen and  (max-width : 1599px) {
+    .header-title{
+        left: calc(50% - 260px/2 - 480px);
+        top: calc(50% - 57px/2 - 2.5px);
+    }
+    .header-ru{
+        left: calc(50% - 40px/2 + 580px);
+        top: calc(50% - 27px/2 - 0.5px);
+    }
+    .header-eng{
+        left: calc(50% - 47px/2 + 620px);
+        top: calc(50% - 28px/2);
+    }
+    
+}
+@media screen and  (max-width : 1281px) {
+    .header-title{
+        left: calc(50% - 260px/2 - 360px);
+        top: calc(50% - 57px/2 - 2.5px);
+    }
+    .header-ru{
+
+        left: calc(50% - 40px/2 + 420px);
+        top: calc(50% - 27px/2 - 0.5px);
+    }
+    .header-eng{
+
+        left: calc(50% - 47px/2 + 470px);
+        top: calc(50% - 28px/2);
+    }
+}
+
+@media screen and  (max-width : 1025px) {
+    .header-title{
+        left: calc(50% - 260px/2 - 230px);
+        top: calc(50% - 57px/2 - 2.5px);
+    }
+    .header-ru{
+
+        left: calc(50% - 40px/2 + 320px);
+        top: calc(50% - 27px/2 - 1.5px);
+    }
+    .header-eng{
+        width: max-content;
+        left: calc(50% - 47px/2 + 370px);
+        top: calc(50% - 28px/2 - 1px);
+    }
+}
+
+@media screen and  (max-width : 769px) {
+    .header-title{
+        left: calc(50% - 260px/2 - 150px);
+        top: calc(50% - 57px/2 - 2.5px);
+    }
+    .header-ru{
+        left: calc(50% - 40px/2 + 230px);
+        top: calc(50% - 27px/2 - 0.5px);
+    }
+    .header-eng{
+        left: calc(50% - 47px/2 + 270px);
+        top: calc(50% - 28px/2);
+    }
+}
+
+@media screen and  (max-width : 601px) {
+    .header-title{
+        left: calc(50% - 260px/2 - 100px);
+        top: calc(50% - 57px/2 - 2.5px);
+    }
+    .header-ru{
+        left: calc(50% - 40px/2 + 160px);
+        top: calc(50% - 27px/2 - 2.5px);
+    }
+    .header-eng{
+        left: calc(50% - 47px/2 + 205px);
+        top: calc(50% - 28px/2 - 2px);
+    }
+}
+
+@media screen and  (max-width : 479px) {
+    .header-title{
+        left: calc(50% - 260px/2 - 20px);
+        top: calc(50% - 57px/2 - 2.5px);
+        font-size: 46px;
+    }
+    .header-ru{
+        left: calc(50% - 40px/2 + 100px);
+        top: calc(50% - 27px/2 - 2.5px);
+        font-size: 20px;
+    }
+    .header-eng{
+        left: calc(50% - 47px/2 + 140px);
+        top: calc(50% - 28px/2 - 2px);
+        width: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and  (max-width : 319px) {
+    .header-title{
+        left: calc(50% - 260px/2 + 16px);
+        top: calc(50% - 57px/2 - 2.5px);
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 58px;
+        width: max-content;
+    }
+    .header-ru{
+        left: calc(50% - 40px/2 + 90px);
+        top: calc(50% - 27px/2 - 2.5px);
+        font-size: 16px;
+        line-height: 28px;
+        width: max-content;
+    }
+    .header-eng{
+        left: calc(50% - 47px/2 + 120px);
+        top: calc(50% - 28px/2 - 2px);
+        font-size: 16px;
+        line-height: 28px;
+        width: max-content;
+    }
+}

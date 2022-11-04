@@ -1,0 +1,509 @@
+
+
+.changeLogWheel-box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #0F0F0F;
+}
+.changeLogWheel-container{
+    position: absolute;
+    width: 960px;
+    height: 470px;
+    left: calc(50% - 960px/2 - 71px);
+    top: calc(50% - 490px/2 - 149.5px);
+}
+.changeLogWheel-container-title-ru{
+    position: absolute;
+    width: max-content;
+    height: 50px;
+    left: 272px;
+    top: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #D9D9D9;
+}
+.changeLogWheel-container-title-eng{
+    position: absolute;
+    width: max-content;
+    height: 50px;
+    left: 303px;
+    top: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #D9D9D9;
+}
+.changeLogWheel-container-line{
+    position: absolute;
+    width: 790px;
+    height: 0px;
+    left: 87px;
+    top: 60px;
+
+    border: 1px solid #B8860B;
+}
+.changeLogWheel-container-content{
+    position: absolute;
+    width: 800px;
+    height: 420px;
+    left: calc(50% - 800px/2 - 2px);
+    top: calc(50% - 420px/2 + 40px);
+
+    overflow-y: scroll;
+}
+.changeLogWheel-container-content::-webkit-scrollbar {
+    width: 6px;
+}
+.changeLogWheel-container-content::-webkit-scrollbar-thumb {
+    background-color:#B0B0B0;
+}
+.changeLogWheel-container-content-title{
+    width: 780px;
+    height: max-content;
+
+    margin-left: 10px;
+    margin-top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #B0B0B0;
+}
+.changeLogWheel-container-content-description{
+    width: 780px;
+    height: max-content;
+
+    margin-left: 10px;
+    margin-top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #B0B0B0;
+}
+.changeLogWheel-container-content-line{
+    width: 780px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #B0B0B0;
+}
+.changeLogWheel-adv{
+    position: absolute;
+    left: calc(50% - 225px/2 + 790px);
+    top: calc(50% - 480px/2 - 140px);
+}
+.changeLogWheel-line{
+    position: absolute;
+    width: 960px;
+    height: 2px;
+    background-color:#B8860B ;
+    left: calc(50% - 225px/2 - 438px);
+    top: calc(50% - 480px/2 + 360px);
+}
+@media screen and  (max-width : 1919px) {
+    .changeLogWheel-box{
+        height: 1600px;
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width: max-content;
+        left: calc(50% - 225px/2 + 110px);
+        top:120px;
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 + 600px);
+        top: calc(50% - 480px/2 - 420px);
+    }
+    .changeLogWheel-container{
+        left: calc(50% - 960px/2 - 30px);
+        top:80px;
+    }
+    .changeLogWheel-line{
+        left: calc(50% - 225px/2 - 400px);
+        top: calc(50% - 480px/2 + 60px);
+    }
+
+}
+@media screen and  (max-width : 1599px) {
+    .changeLogWheel-box{
+        height: 1600px;  
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width: max-content;
+        left: calc(50% - 225px/2 + 110px);
+        top:120px; 
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 - 20px);
+        top: calc(50% - 480px/2 + 350px);
+    }
+    .changeLogWheel-container{
+        width: 960px;
+        height: 470px;
+        left: calc(50% - 960px/2 - 30px);
+        top:80px;
+    }
+}
+@media screen and  (max-width : 1281px) {
+    .changeLogWheel-box{
+        height: 1700px;  
+    }
+    .changeLogWheel-line{
+        width: 690px;
+        left: calc(50% - 225px/2 - 230px);
+        top: calc(50% - 480px/2 + 270px);
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width:100%;
+        left: 10px;
+        top:370px;
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 - 0px);
+        top: calc(50% - 480px/2 + 520px);
+    }
+    .changeLogWheel-container-title-ru{
+        left: 272px;
+    }
+    .changeLogWheel-container-title-eng{
+        left: 303px;
+    }
+    .changeLogWheel-container-line{
+        width: 650px;
+        left: 185px;
+        top: 60px;
+    }
+    .changeLogWheel-container-content{
+        width: 690px;
+        height: 700px;
+        left: calc(50% - 800px/2 + 80px);
+        top:60px;
+    }
+    .changeLogWheel-container-content-title{
+        width: 670px;
+    } 
+    .changeLogWheel-container-content-description{
+        width: 670px;
+    }
+    .changeLogWheel-container-content-line{
+        width: 98%;
+    }
+}
+@media screen and  (max-width : 1025px) {
+    .changeLogWheel-box{
+        height: 1900px;  
+    }
+    .changeLogWheel-line{
+        left: calc(50% - 225px/2 - 240px);
+        top: calc(50% - 480px/2 + 190px);
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width:100%;
+        left: 20px;
+        top:20px;
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 - 0px);
+        top: calc(50% - 550px/2 + 520px);
+    }
+    .changeLogWheel-container{
+        width: 850px;
+        left: calc(50% - 960px/2 + 10px);
+        top:80px;
+    }
+    .changeLogWheel-container-line{
+        width: 600px;
+        left: 150px;
+        top: 50px;
+    }
+    .changeLogWheel-container-title-ru{
+        left: 250px;
+    }
+    .changeLogWheel-container-title-eng{
+        left: 270px;
+    }
+}
+@media screen and  (max-width : 769px) {
+    .changeLogWheel-line{
+        width: 500px;
+        left: calc(50% - 225px/2 - 140px);
+        top: calc(50% - 480px/2 + 230px);
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:80px;
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 520px);
+    }
+    .changeLogWheel-container{
+        width: 660px;
+        height: 470px;
+        left: calc(50% - 960px/2 + 120px);
+        top:80px;
+    }
+    .changeLogWheel-container-title-ru{
+        height: 50px;
+        left: 150px;
+    }
+    .changeLogWheel-container-title-eng{
+        height: 50px;
+        left: 180px;
+    }
+    .changeLogWheel-container-line{
+        position: absolute;
+        width: 530px;
+        height: 0px;
+        left: 90px;
+        top: 50px;
+    }
+    .changeLogWheel-container-content{
+        width: 560px;
+        height: 750px;
+        left: calc(50% - 800px/2 + 150px);
+        top:60px;
+    }
+    .changeLogWheel-container-content-title{
+        width: 500px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogWheel-container-content-description{
+        width: 530px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogWheel-container-content-line{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and  (max-width : 601px) {
+    .changeLogWheel-line{
+        width: 400px;
+        left: calc(50% - 225px/2 - 90px);
+        top: calc(50% - 480px/2 + 210px);
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:280px;
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 500px);
+    }
+    .changeLogWheel-container{
+        position: absolute;
+        width: 580px;
+        height: 480px;
+        left: calc(50% - 960px/2 + 120px);
+        top:80px;
+    }
+    .changeLogWheel-container-title-ru{
+        width: max-content;
+        height: 50px;
+        left: 150px;
+        top: 11px;
+    }
+    .changeLogWheel-container-title-eng{
+        width: max-content;
+        height: 50px;
+        left: 180px;
+    }
+    .changeLogWheel-container-line{
+        width: 480px;
+        height: 0px;
+        left: 120px;
+        top: 50px;
+    }
+    .changeLogWheel-container-content{
+        width: 450px;
+        height: 750px;
+        left: calc(50% - 800px/2 + 250px);
+        top:60px;
+    }
+    .changeLogWheel-container-content-title{
+        width: 410px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .changeLogWheel-container-content-description{
+        width: 420px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogWheel-container-content-line{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and  (max-width : 479px) {
+    .changeLogWheel-line{
+        width: 300px;
+        left: calc(50% - 225px/2 - 40px);
+        top: calc(50% - 480px/2 + 280px);
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:380px;
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 540px);
+    }
+    .changeLogWheel-container{
+        width: 200px;
+        height: 480px;
+        left: calc(50% - 960px/2 + 380px);
+        top:80px;
+    }
+    .changeLogWheel-container-title-ru{
+        width: max-content;
+        height: max-content;
+        left: -20px;
+        top: 1px;
+        font-size: 15px;
+    }
+    .changeLogWheel-container-title-eng{
+        width: max-content;
+        height: max-content;
+        left: 0px;
+        top: 1px;
+        font-size: 15px;
+    }
+    .changeLogWheel-container-line{
+        width: 98%;
+        height: 0px;
+        left:1%;
+        top: 50px;
+    }
+    .changeLogWheel-container-content{
+        width: 300px;
+        height: 800px;
+        left: calc(50% - 800px/2 + 250px);
+        top:60px;
+    }
+    .changeLogWheel-container-content-title{
+        width: 280px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+    } 
+    .changeLogWheel-container-content-description{
+        width: 270px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogWheel-container-content-line{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and  (max-width : 319px) {
+    .changeLogWheel-line{
+        width: 230px;
+        left: calc(50% - 225px/2 - 5px);
+        top: calc(50% - 480px/2 + 260px);
+    }
+    .changeLogWheel-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:450px;
+    }
+    .changeLogWheel-adv{
+        left: calc(50% - 225px/2 - 00px);
+        top: calc(50% - 480px/2 + 500px);
+    }
+    .changeLogWheel-container{
+        width: 200px;
+        height: 480px;
+        left: calc(50% - 960px/2 + 380px);
+        top:80px;
+    }
+    .changeLogWheel-container-title-ru{
+        width: max-content;
+        height: max-content;
+        left: -15px;
+        top: 1px;
+        font-size: 14px;
+    }
+    .changeLogWheel-container-title-eng{
+        width: max-content;
+        height: max-content;
+        left: 0px;
+        top: 1px;
+        font-size: 15px;
+    }
+    .changeLogWheel-container-line{
+        width: 98%;
+        height: 0px;
+        left:1%;
+        top: 50px;
+    }
+    .changeLogWheel-container-content{
+        width: 230px;
+        height: 800px;
+        left: calc(50% - 800px/2 + 280px);
+        top:60px;
+    }
+    .changeLogWheel-container-content-title{
+        width: 210px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .changeLogWheel-container-content-description{
+        width: 210px;
+        height: max-content;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .changeLogWheel-container-content-line{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}

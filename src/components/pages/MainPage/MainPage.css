@@ -1,0 +1,537 @@
+
+html,body{
+    background: #0F0F0F;
+}
+
+.mainPage-box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background: #0F0F0F;
+}
+.mainPage-gitlink{
+    text-decoration: none;
+    color: #B0B0B0;
+    transition: .2s;
+}
+.mainPage-gitlink:hover{
+    color: #B8860B;
+}
+.mainPage-video{
+    position: absolute;
+    width: 518px;
+    height: 325px;
+    left: calc(50% - 518px/2 - 377px);
+    top: calc(50% - 325px/2 - 101.5px);
+
+    background: #272727;
+    border-radius: 5px;
+}
+.mainPage-video-title{
+    position: absolute;
+    width: 340px;
+    height: 58px;
+    left: 114px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #B0B0B0;
+}
+.mainPage-video-preview{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 26px;
+    top: 50px;
+
+    cursor: pointer;
+}
+.mainPage-video-changelog{ 
+    position: absolute;
+    width: max-content;
+    height: 32px;
+    left: 26px;
+    top: 290px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #B0B0B0;
+    
+    cursor: pointer;
+
+    transition: color .2s;
+}
+.mainPage-video-changelog:hover{
+    color: #B8860B;
+}
+.mainPage-video-gitlab{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left: 439px;
+    top: 290px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #B0B0B0;
+    
+    cursor: pointer;
+
+}
+.mainPage-wheel{
+    position: absolute;
+    width: 518px;
+    height: 325px;
+    left: calc(50% - 518px/2 + 221px);
+    top: calc(50% - 325px/2 - 101.5px);
+
+    background: #272727;
+    border-radius: 5px;  
+}
+.mainPage-wheel-title{
+    position: absolute;
+    width: 227px;
+    height: 58px;
+    left: 166px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #B0B0B0;
+}
+.mainPage-wheel-preview{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 26px;
+    top: 50px;
+    
+    cursor: pointer;
+}
+.mainPage-wheel-changelog{
+    position: absolute;
+    width: max-content;
+    height: 32px;
+    left: 26px;
+    top: 290px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #B0B0B0;
+    
+    cursor: pointer;
+
+    transition: color .2s;
+}
+.mainPage-wheel-changelog:hover{
+    color: #B8860B;
+}
+.mainPage-wheel-gitlab{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left: 440px;
+    top: 290px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #B0B0B0;
+    
+    cursor: pointer;
+}
+.mainPage-adv{
+    position: absolute;
+    width: 225px;
+    height: 480px;
+    left: calc(50% - 225px/2 + 790px);
+    top: calc(50% - 480px/2 - 140px);
+}
+.mainPage-line{
+    position: absolute;
+    width: 1116px;
+    height: 2px;
+    background-color:#B8860B ;
+    left: calc(50% - 225px/2 - 523px);
+    top: calc(50% - 480px/2 + 340px);
+}
+
+
+@media screen and  (max-width : 1919px) {
+    .mainPage-box{
+        height: 1800px;
+    }
+    .mainPage-support{
+        position: absolute;
+        width: max-content;
+        left: calc(50% - 225px/2 + 110px);
+        top:320px;
+    }
+    .mainPage-video{
+        left: calc(50% - 518px/2 - 314px);
+        top: calc(50% - 325px/2 - 300px);
+    }
+    .mainPage-wheel{
+        left: calc(50% - 518px/2 + 284px);
+        top: calc(50% - 325px/2 - 300px);
+    }
+    .mainPage-adv{
+        left: calc(50% - 225px/2 - 10px);
+        top: calc(50% - 480px/2 + 480px);
+    }
+    .mainPage-line{
+        left: calc(50% - 225px/2 - 460px);
+        top: calc(50% - 480px/2 + 160px);
+    }
+}
+
+@media screen and  (max-width : 1599px) {
+
+    .mainPage-support{
+        position: absolute;
+        width: max-content;
+        left: calc(50% - 225px/2 + 110px);
+        top:20px;   
+    }
+    .mainPage-box{
+        height: 1720px;
+    }
+    .mainPage-video{
+        left: calc(50% - 558px/2 - 300px);
+        top: 90px;
+    }
+    .mainPage-wheel{
+        left: calc(50% - 558px/2 + 300px);
+        top: 90px;
+    }
+    .mainPage-adv{
+        left: calc(50% - 225px/2 - 20px);
+        top: calc(50% - 480px/2 + 230px);
+    }
+    .mainPage-line{
+        left: calc(50% - 225px/2 - 460px);
+        top: calc(50% - 480px/2 - 120px);
+    }
+
+}
+@media screen and  (max-width : 1281px) {
+    .mainPage-box{
+        height: 1720px;
+    }
+    .mainPage-video{
+        left: calc(50% - 558px/2 - 230px);
+        width: 500px;
+        top: 90px;
+    }
+    .mainPage-wheel{
+        width: 500px;
+        left: calc(50% - 558px/2 + 290px);
+        top: 90px;
+    }
+    .mainPage-video-gitlab{
+        left: 420px;
+    }
+    .mainPage-wheel-gitlab{
+        left: 420px;
+    }
+    .mainPage-support{
+        position: absolute;
+        width:0px;
+        left: calc(50% - 225px/2 + 120px);
+        top:0px;
+    }
+    .mainPage-adv{
+        left: calc(50% - 225px/2 - 10px);
+        top: calc(50% - 480px/2 + 300px);
+    }
+    .mainPage-line{
+        width: 910px;
+        left: calc(50% - 25px/2 - 440px);
+        top: calc(50% - 480px/2 - 140px);
+    }
+}
+
+@media screen and  (max-width : 1025px) {
+    .mainPage-box{
+        height: 1750px;
+    }
+    .mainPage-video{
+        left: calc(50% - 558px/2 + 20px);
+        top: 90px;
+    }
+    .mainPage-wheel{
+        left: calc(50% - 558px/2 + 20px);
+        top: 470px;
+    }
+    .mainPage-support{
+        position: absolute;
+        width:0px;
+        left: calc(50% - 225px/2 + 140px);
+        top:0px;
+    }
+    .mainPage-adv{
+        left: calc(50% - 225px/2 + 0px);
+        top: calc(50% - 480px/2 + 520px);
+    }
+    .mainPage-line{
+        width: 500px;
+        left: calc(50% - 225px/2 - 150px);
+        top: calc(50% - 480px/2 + 220px);
+    }
+}
+
+@media screen and  (max-width : 769px) {
+    .mainPage-box{
+        height: 1830px;
+    }
+    .mainPage-video{
+        left: calc(50% - 500px/2 - 4px);
+        top: 90px;
+    }
+    .mainPage-wheel{
+        left: calc(50% - 500px/2 - 4px);
+        top: 470px;
+    }
+    .mainPage-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:10px;
+    }
+    .mainPage-adv{
+        left: calc(50% - 225px/2 - 0px);
+        top: calc(50% - 480px/2 + 450px);
+    }
+    .mainPage-line{
+        left: calc(50% - 225px/2 - 140px);
+        top: calc(50% - 480px/2 + 170px);
+    }
+}
+
+@media screen and (max-width : 601px) {
+    .mainPage-box{
+        height: 1800px;
+    }
+    .mainPage-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:20px;
+    }
+    .mainPage-video{
+        width: 360px;
+        height: 225px;
+        left: calc(50% - 360px/2);
+        top: 90px;
+    }
+    .mainPage-wheel{
+        width: 360px;
+        height: 225px;
+        left: calc(50% - 360px/2);
+        top: 350px;
+    }
+    .mainPage-adv{
+        left: calc(50% - 225px/2 + 0px);
+        top: 900px;
+    }
+    .mainPage-line{
+        width: 360px;
+        left: calc(50% - 225px/2 - 65px);
+        top: calc(50% - 480px/2 - 30px);
+    }
+    .mainPage-video-title{
+        width: max-content;
+        height: 58px;
+        left: 105px;
+        top: 0px;
+        font-size: 22px;
+    }
+    .mainPage-video-preview{
+        width: 80%;
+        height: auto;
+        left: 40px;
+        top: 40px;
+    }
+    .mainPage-video-changelog{
+        position: absolute;
+        height: 32px;
+        left: 40px;
+        top: 195px;
+        font-size: 15px;
+    }
+    .mainPage-video-gitlab{
+        left: 280px;
+        top: 195px;
+        font-size: 15px;
+    }
+    .mainPage-wheel-title{
+        position: absolute;
+        width: max-content;
+        height: 58px;
+        left: 125px;
+        top: 0px;
+        font-size: 22px;
+    }
+    .mainPage-wheel-preview{
+        width: 80%;
+        height: auto;
+        left: 40px;
+        top: 40px;
+    }
+    .mainPage-wheel-changelog{
+        height: 32px;
+        left: 40px;
+        top: 195px;
+        font-size: 15px;
+    }
+    .mainPage-wheel-gitlab{
+        left: 285px;
+        top: 195px;
+        font-size: 15px;
+    }
+}
+@media screen and  (max-width : 479px) {
+    .mainPage-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:20px;
+    }
+    .mainPage-video{
+        width: 320px;
+        height: 225px;
+        left: calc(50% - 320px/2);
+        top: 90px;
+    }
+    .mainPage-wheel{
+        width: 320px;
+        height: 225px;
+        left: calc(50% - 320px/2);
+        top: 350px;
+    }
+    .mainPage-line{
+        width: 318px;
+        left: calc(50% - 225px/2 - 46px);
+        top: calc(50% - 480px/2 - 30px);
+    }
+    .mainPage-adv{
+        left: calc(50% - 225px/2 + 5px);
+    }
+    .mainPage-video-title{
+        left: 90px;
+        width: 220px;
+    }
+    .mainPage-wheel-title{
+        left: 110px;
+        width: 180px;
+    }
+    .mainPage-video-gitlab{
+        left: 250px;
+    }
+    .mainPage-wheel-gitlab{
+        left: 250px; 
+   }
+}
+
+@media screen and  (max-width : 319px) {
+    .mainPage-support{
+        position: absolute;
+        width:100%;
+        left: 0px;
+        top:60px;
+    }
+    .mainPage-adv{
+        top: 800px;
+    }
+    .mainPage-video{
+        width: 260px;
+        height: 180px;
+        left: calc(50% - 260px/2);
+        top: 90px;
+    }
+    .mainPage-wheel{
+        width: 260px;
+        height: 180px;
+        left: calc(50% - 260px/2);
+        top: 300px;
+    }
+    .mainPage-line{
+        width: 250px;
+        left: calc(50% - 225px/2 - 10px);
+        top: calc(50% - 480px/2 - 110px);
+    }
+    .mainPage-video-title{
+        width: 180px;
+        height: 58px;
+        left: 55px;
+        top: 0px;
+        font-size: 22px;
+    }
+    .mainPage-video-preview{
+        width: 80%;
+        height: auto;
+        left: 25px;
+        top: 40px;
+    }
+    .mainPage-video-changelog{
+
+        height: 32px;
+        left: 25px;
+        top: 150px;
+        font-size: 12px;
+    }
+    .mainPage-video-gitlab{
+        left: 195px;
+        top: 150px;
+        font-size: 12px;
+    }
+    .mainPage-wheel-title{
+        position: absolute;
+        width: 180px;
+        height: 58px;
+        left: 70px;
+        top: 0px;
+        font-size: 22px;
+    }
+    .mainPage-wheel-preview{
+        width: 80%;
+        height: auto;
+        left: 25px;
+        top: 40px;
+    }
+    .mainPage-wheel-changelog{
+        left: 25px;
+        top: 150px;
+        font-size: 12px;
+    }
+    .mainPage-wheel-gitlab{
+        left: 195px;
+        top: 150px;
+        font-size: 12px;
+    }
+}
